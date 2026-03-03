@@ -1,0 +1,40 @@
+# Build output folders
+Debug/
+Release/
+
+# STM32CubeIDE generated build files
+**/*.o
+**/*.d
+**/*.su
+**/*.cyclo
+**/*.elf
+**/*.hex
+**/*.bin
+**/*.map
+**/*.list
+**/*.obj
+**/*.dep
+**/*.tmp
+**/*.log
+**/*.bak
+
+# Generated make/build metadata inside Debug/Release
+**/subdir.mk
+**/sources.mk
+**/objects.mk
+**/makefile
+**/objects.list
+
+# Eclipse / STM32CubeIDE temporary files
+.metadata/
+.tmp/
+*.tmp
+*.swp
+*~
+
+# Launch configs (optional)
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
